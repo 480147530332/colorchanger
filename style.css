@@ -1,0 +1,32 @@
+*{margin: 0;
+padding: 0;
+}
+body{display: flex;
+height: 100vh;
+align-items: center;
+justify-content: center;
+}
+.container{
+    border: 8px solid black;
+    border-style:double;
+}
+.color{
+    display: table-cell;
+    width: 70px;
+    height: 70px;
+    margin: 0 1px;
+    cursor: pointer;
+}
+.clr1{
+    background-color: blue;
+
+}
+.clr2{
+    background-color: orange;
+}
+.clr3{
+    background-color: green;
+}
+.clr4{
+    background-color: blueviolet;
+}
